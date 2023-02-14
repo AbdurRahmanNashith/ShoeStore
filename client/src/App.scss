@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Bradleys ;
+    src: url(components/Bradleys.TTF);
+}
+.app{
+    .link{
+        color: inherit;
+        text-decoration: none;
+    }
+    .logo{
+        color: inherit;
+        text-decoration: none;
+        font-family: Bradleys;
+        font-size: 25px;
+        align-items: center;
+        height: 5px;
+        display: flex;
+        cursor: pointer;
+        font-weight: bold;
+
+    
+        
+        
+
+    }
+}

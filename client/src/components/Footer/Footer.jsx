@@ -34,6 +34,7 @@ const footer = () => {
       <div className="bottom">
         <div className="logo">SHOE STYLE</div>
         <span className="copyrigh">© 2023 shoestyle.com </span>
+        
       </div>
 
 

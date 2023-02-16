@@ -19,6 +19,7 @@ const totalPrice = ()=>{
 };
 
 const stripePromise = loadStripe('pk_test_51Ma2GkSE3SlRGQEcx9uDaXGymHeHibi6jCoPBC5vMha85cRTOg7xnzDoCR4BzS6fkvEEjt85aSF0zxBwn3fkWDCn00y6MvaRAm');
+
 const handlePayment = async () =>{
   try{
 const stripe = await stripePromise;
@@ -34,6 +35,7 @@ const res = await makeRequest.post("/orders",{
   }catch(err){
     console.log(err)
   }
+  
 }
   return (
     <div className='Cart'>
